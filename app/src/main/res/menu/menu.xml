@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Framework"
+        android:id="@+id/action_framework"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Team"
+        android:id="@+id/action_team"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Partners"
+        android:id="@+id/action_partner"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="About us"
+        android:id="@+id/action_Aboutus"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Message"
+        android:id="@+id/action_Message"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

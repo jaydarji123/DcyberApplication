@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Aboutus">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/dcyberlogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                Dcyber , A Cyber Security Company Providing Cutting Edge Cyber Security Solutions From India.We Have Experienced Team Of Certified SMEs and Project Managers.Managed 50+ Projects In Last 2 Years. Experienced Management Team To Mentor Young , Energetic and Brilliant Talent.Global Projects Management With Industry Best Practices.Best Talent Hired From MNCs Like WIPRO and HP."
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"/>
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:background="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Manage Security Service"
+                    android:textSize="25dp"
+                    android:textColor="@color/white"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Network Security"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center">
+            <TextView
+                android:text="EndPoint Security"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </TableRow>
+            <TableRow
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center">
+            <TextView
+                android:text="Vulnerability Management"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </TableRow>
+            <TableRow
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center">
+            <TextView
+                android:text="SecurityMonitoring"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:gravity="center"/>
+        </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:background="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Threat Intelligence"
+                    android:textSize="25dp"
+                    android:textColor="#FFFFFF"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Advance Threat"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Management"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Global Threat Intelligence"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Targeted Threat Intelligence"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Malware Code Analysis"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:background="@color/black"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Cloud Security"
+                    android:textSize="25dp"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Cloud Security Consulting"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Manage Cloud Security"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:background="#FFFFFF"
+                android:textAlignment="center"
+                android:gravity="center">
+                <TextView
+                    android:text="Cloud Incident Response"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:gravity="center"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

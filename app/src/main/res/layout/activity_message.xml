@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="20dp"
+                android:background="#FAD3D3"
+                android:hint="Enter Name.."
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp" />
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="20dp"
+                android:background="#FAD3D3"
+                android:hint="Enter Email.."
+                android:layout_marginLeft="47dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subject:"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp" />
+            <EditText
+                android:id="@+id/Subject"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="20dp"
+                android:background="#FAD3D3"
+                android:hint="Enter Subject.."
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comment:"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"/>
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="Enter your comments.."
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="10dp"
+                android:background="#FAD3D3"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Click To Submit"
+            android:textColor="#F5FBF6"
+            android:background="#B71C1C"
+            android:layout_marginTop="30dp"
+            android:onClick="sendsms"
+            tools:ignore="OnClick"/>
+
+    </LinearLayout>
+
+</ScrollView>
